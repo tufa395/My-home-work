@@ -1,10 +1,11 @@
 #include <stdio.h>
 int main()
 {
-   int i;
-   char num[4],sum=0;
-   printf("Enter Four Digit Number: \n");
-   gets(num);
-     sum=num[0]-48+num[3]-48;
-   printf("The Sum Of First And Last Digit Is: %d",sum);
+  int number,result;
+   printf("Enter the number");
+   scanf("%d",&number);
+   result=number+1111;
+   printf("Result%d",result);
+   return 0;
+   
 }
